@@ -8,7 +8,7 @@ import com.zaxxer.hikari.HikariDataSource;
 
 public class DBConnect {
 
-	private static final String jdbcURL = "jdbc:mysql://localhost/extflightdelays";
+	private static final String jdbcURL = "jdbc:mysql://localhost/extflightdelays?serverTimezone=UTC";
 	private static HikariDataSource ds = null;
 
 	public static Connection getConnection() {

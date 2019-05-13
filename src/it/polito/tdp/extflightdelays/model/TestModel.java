@@ -6,6 +6,7 @@ public class TestModel {
 		
 		Model model = new Model();
 
+		model.createGraph(900);
 	}
 
 }
