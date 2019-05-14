@@ -6,7 +6,14 @@ public class TestModel {
 		
 		Model model = new Model();
 
-		model.createGraph(900);
+		model.createGraph(0);
+		
+		if(model.testConnection(11, 297))
+			System.out.println("Connessi");
+		else
+			System.out.println("Non connessi");
+		
+		System.out.println(model.findRoute(11, 297));
 	}
 
 }
