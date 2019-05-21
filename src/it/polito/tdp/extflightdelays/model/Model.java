@@ -124,5 +124,16 @@ public class Model {
 		
 		return route;
 	}
+
+	public int getVertexSetSize() {
+		return this.graph.vertexSet().size();
+	}
 	
+	public int getEdgeSetSize() {
+		return this.graph.edgeSet().size();
+	}
+
+	public Map<Integer, Airport> getAirportIdMap() {
+		return this.airportIdMap;
+	}
 }

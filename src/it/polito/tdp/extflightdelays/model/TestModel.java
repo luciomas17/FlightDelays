@@ -6,7 +6,7 @@ public class TestModel {
 		
 		Model model = new Model();
 
-		model.createGraph(0);
+		model.createGraph(100);
 		
 		if(model.testConnection(11, 297))
 			System.out.println("Connessi");
